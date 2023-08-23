@@ -1,0 +1,58 @@
+
+
+body {
+    background: url(./assets/starfield.jpg);
+    height:95vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Gruppo', sans-serif;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.counterContainer {
+    margin-bottom: 25px;
+    color: #fff;
+    padding:0 20px;
+    text-align: center;
+    height:100px;
+    text-transform: capitalize;
+    letter-spacing: 6px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.counter {
+    font-size: 24px;
+    font-weight: 700;
+    color:#fdc15a;
+}
+
+a{
+    color: #dfdfdf;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .counterContainer{
+        margin-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    h1 {
+        font-size: 24px;
+    }
+}
